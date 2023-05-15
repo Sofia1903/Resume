@@ -22,22 +22,22 @@ body {
 .about_user {
     position: absolute;
     width: 525px;
-    height: 200px;
+    height: 250px;
     left: 500px;
-    top: 120px;
-    margin-bottom: 40px;
+    top: 40px;
 }
+
 .profession {
     width: 250px;
     height: 17px;
-    left: 498px;
-    top: 102px;
+    /* left: 498px; */
+    /* top: 102px; */
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 17px;
     color: #59351F;
-    margin-bottom: 20px;
+
 }
 .name_user {
     width: 400px;
@@ -47,7 +47,8 @@ body {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .citare {
     width: 500px;
@@ -59,22 +60,22 @@ body {
     font-size: 18px;
     line-height: 24px;
     color: #FB6D3A;
+    margin: 0;
 }
 /* projects */
 .projects {
     position: absolute;
-    width: 95px;
-    height: 27px;
+    width: 500px;
+    height: 500px;
     left: 498px;
-    top: 330px;
-    margin-bottom: 60px;
+    top: 260px;
 }
 .project_title {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 10px;
+    margin: 0;
 }
 .project {
     width: 700px;
@@ -92,19 +93,23 @@ body {
     line-height: 24px;
     color: darkred;
 }
-.project_sp {
-    margin-left: 10px;
+
+.company_t{
+    margin-top: 5px;
 }
+
 .olprojects {
     padding: 0px;
     margin-left: 15px;
+    margin-top: 5px;
 }
 .llinks {
-    color: #59351F;
+    color: #000000;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     cursor: pointer;
+    text-decoration: none;
 }
 .bracketss {
     width: 700px;
@@ -121,19 +126,18 @@ body {
     width: 600px;
     height: 210px;
     left: 500px;
-    top: 350px;
-    margin-top: 50px;
+    top: 730px;
+  
 }
 .work_experience {
     width: 198px;
     height: 27px;
     left: 498px;
-    margin-top: 180px;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .clerk {
     height: 20px;
@@ -149,6 +153,7 @@ body {
     text-align: left;    
     font-style: normal;  
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 .organization {
     height: 213px;
@@ -162,6 +167,7 @@ body {
 .practice {
     padding: 0px;
     margin-left: 15px;
+    margin-top: 0;
 }
 .date {
     height: 15px;
@@ -197,7 +203,7 @@ body {
  top: 663px;
  border-radius: nullpx;
  font-family: Montserrat;
- font-size: 14px;
+ font-size: 15px;
  font-weight: 400;
  line-height: 24px;
  color: #4C2F27;
@@ -207,10 +213,9 @@ body {
 .education {
     position: absolute;
     width: 525px;
-    height: 125px;
     left: 500px;
-    top: 950px;
-    margin: 0px 0px 12px 0px;
+    top: 1000px;
+    /* margin: 0px 0px 12px 0px; */
 }
 .education_title {
     width: 118px;
@@ -235,7 +240,7 @@ body {
     width: 300px;
     height: 27px;
     left: 40px;
-    top: 450px;
+    top: 400px;
     bottom: 15px;
     color: #000000;
 }
@@ -277,16 +282,28 @@ body {
  font-size: 16px;
  font-weight: 700;
  line-height: 20px;
+ margin-top: 10px;
 }
 .info {
     font-size: 14px;
     font-weight: 700;
     line-height: 17.07px;
+    margin: 0;
 }
+
+.infot {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    margin: 5px;
+}
+
 .dateed {
 font-size: 14px;
 font-weight: 400;
 line-height: 15px;
+margin-top: 0;
+margin-bottom: 0;
 }
 /* sidebar */
 .sidebar {
@@ -300,7 +317,7 @@ line-height: 15px;
     width: 200px;
     height: 225px;
     left: 40px;
-    top: 600px;
+    top: 550px;
     color: #ffffff;
 }
 .tech_title {
@@ -345,13 +362,20 @@ line-height: 15px;
     line-height: 30px;
     color: #000000;
 }
+.languages {
+position: absolute;
+    width: 200px;
+    height: 130px;
+    left: 40px;
+    top: 1000px;
+}
 /* soft skills */
 .soft_skills {
     position: absolute;
     width: 200px;
     height: 130px;
     left: 40px;
-    top: 810px;
+    top: 790px;
     color: #ffffff;
 }
 .soft_title {
@@ -403,4 +427,20 @@ line-height: 15px;
 
 link {
     cursor: pointer;
+}
+
+.project_spp {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.detail {
+    width: 500px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+    text-decoration: none;
+    color: #4C2F27;
 }
