@@ -51,16 +51,25 @@ body {
     margin-bottom: 10px;
 }
 .citare {
-    width: 500px;
+    width: 700px;
     height: 120px;
     left: 498px;
     top: 252px;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
-    color: #FB6D3A;
+    color: #4C2F27;
     margin: 0;
+}
+
+.summary {
+    margin: 0;
+    font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 30px;
+        color: #000;
 }
 /* projects */
 .projects {
@@ -69,6 +78,7 @@ body {
     height: 500px;
     left: 498px;
     top: 260px;
+    margin-top: 5px;
 }
 .project_title {
     font-style: normal;
@@ -109,7 +119,6 @@ body {
     font-size: 17px;
     line-height: 24px;
     cursor: pointer;
-    text-decoration: none;
 }
 .bracketss {
     width: 700px;
@@ -195,6 +204,7 @@ body {
  font-weight: 700;
  line-height: 24px;
  color: #4C2F27;
+ list-style: none;
 }
 .practicesp {
     height: 120px;
@@ -273,7 +283,7 @@ body {
     top: 520px; 
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     color: #FB6D3A;
 }
@@ -364,7 +374,7 @@ margin-bottom: 0;
 }
 .languages {
 position: absolute;
-    width: 200px;
+    width: 72px;
     height: 130px;
     left: 40px;
     top: 1000px;
@@ -372,7 +382,7 @@ position: absolute;
 /* soft skills */
 .soft_skills {
     position: absolute;
-    width: 200px;
+    width: 72px;
     height: 130px;
     left: 40px;
     top: 790px;
@@ -390,7 +400,7 @@ position: absolute;
     color: #000000;
 }
 .soft_skills_list {
-    width: 72px;
+    width: 250px;
     height: 168px;
     left: 96px;
     top: 650px;
@@ -420,6 +430,18 @@ position: absolute;
     line-height: 30px;
     color: #000000;
 }
+
+.l_skills_text {
+    width: 100px;
+        height: 168px;
+        left: 96px;
+        top: 650px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+}
 /* photo */
 .img {
     margin-top: 40px;
@@ -441,6 +463,9 @@ link {
     font-size: 16px;
     line-height: 30px;
     margin: 0;
-    text-decoration: none;
     color: #4C2F27;
+}
+
+.llink {
+    margin: 0;
 }
