@@ -8,7 +8,7 @@ body {
     width: 1200px;
     height: 1320px;
     left: 40px;
-    top: 40px;
+    top: 50px;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .main_content {
@@ -77,7 +77,7 @@ body {
     width: 500px;
     height: 500px;
     left: 498px;
-    top: 260px;
+    top: 300px;
     margin-top: 5px;
 }
 .project_title {
@@ -135,7 +135,7 @@ body {
     width: 600px;
     height: 210px;
     left: 500px;
-    top: 770px;
+    top: 680px;
   
 }
 .work_experience {
@@ -223,7 +223,7 @@ body {
     position: absolute;
     width: 525px;
     left: 500px;
-    top: 1030px;
+    top: 950px;
     /* margin: 0px 0px 12px 0px; */
 }
 .education_title {
@@ -473,6 +473,7 @@ link {
     background-color: #FB6D3A;
     border-style: none;
     border-radius: 8px;
+    margin-left: 10px;
 }
 
 .btn {
