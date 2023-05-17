@@ -135,7 +135,7 @@ body {
     width: 600px;
     height: 210px;
     left: 500px;
-    top: 730px;
+    top: 770px;
   
 }
 .work_experience {
@@ -204,7 +204,6 @@ body {
  font-weight: 700;
  line-height: 24px;
  color: #4C2F27;
- list-style: none;
 }
 .practicesp {
     height: 120px;
@@ -224,7 +223,7 @@ body {
     position: absolute;
     width: 525px;
     left: 500px;
-    top: 1000px;
+    top: 1030px;
     /* margin: 0px 0px 12px 0px; */
 }
 .education_title {
@@ -457,7 +456,7 @@ link {
 }
 
 .detail {
-    width: 500px;
+    width: 650px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -468,4 +467,15 @@ link {
 
 .llink {
     margin: 0;
+}
+
+.buttons {
+    background-color: #FB6D3A;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #ffffff;
 }
