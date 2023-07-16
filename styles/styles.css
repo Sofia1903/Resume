@@ -326,7 +326,7 @@ margin-bottom: 0;
     width: 200px;
     height: 225px;
     left: 40px;
-    top: 550px;
+    top: 590px;
     color: #ffffff;
 }
 .tech_title {
@@ -375,7 +375,7 @@ position: absolute;
     width: 72px;
     height: 130px;
     left: 40px;
-    top: 1000px;
+    top: 960px;
 }
 /* soft skills */
 .soft_skills {
@@ -399,7 +399,7 @@ position: absolute;
 }
 .soft_skills_list {
     width: 250px;
-    height: 168px;
+    height: 180px;
     left: 96px;
     top: 650px;
     font-style: normal;
@@ -419,13 +419,13 @@ line-height: 15px;
 }
 .soft_skills_text {
     width: 72px;
-    height: 168px;
+    height: 180px;
     left: 96px;
     top: 650px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
     color: #000000;
 }
 
